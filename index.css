@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  color: white;
+
+  position: absolute;
+  width: 100%;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.nav-items {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-button {
+  background-color: #4fb7eb;
+  border-radius: 25px;
+  padding: 5px 20px;
+}
+
+.hero-section {
+  background-image: url('images/desktop/image-header.jpg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.hero-section h1 {
+  font-size: 35px;
+  color: white;
+  margin-top: 100px;
+}
+
+.transform {
+  display: flex;
+
+  /* flex-direction: column; */
+  /* justify-content: ; */
+}
+
+.transform img {
+  display: block;
+  object-fit: cover;
+  flex: 50%;
+  max-width: 50vw;
+}
+
+.transform-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10%;
+  flex: 50%;
+}
+
+.transform-left h1 {
+  font-size: 40px;
+}
+
+.transform-left h2 {
+  font-size: 25px;
+  /* font-size: 2vw; */
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: hsl(51, 100%, 49%);
+  text-decoration-thickness: 8px;
+}
+
+.stand{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.stand image{
+  display: block;
+  object-fit: cover;
+  flex: 50%;
+  max-width: 50vw;
+}
+
+.Graphic{
+  background-image: url('images/desktop/image-graphic-design.jpg');
+  background-repeat: no-repeat; 
+  background-position: left; 
+  background-size: cover;
+  width: 50%;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  padding: 15%;
+} 
+
+.Photograpgy{
+  background-image: url('images/desktop/image-photography.jpg');
+  background-repeat: no-repeat; 
+  background-position: left; 
+  background-size: cover;
+  width: 50%;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  padding: 15%;
+}
+
+.little {
+  display: flex;
+}
+
+.words{
+  text-align: center;
+}
+
+.center{
+  text-align: center;
+  padding-top: 10%;
+}
+
+.yinyin{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15%;
+  text-align: center;
+  gap: 30px;
+}
+
+.yinyin img{
+  border-radius: 100%;
+}
+
+.photo{
+  display: flex;
+}
+
+
+
+
+
+
+
